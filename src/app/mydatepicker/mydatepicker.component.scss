@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  background-color: #eceff1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.button {
+  display: flex;
+  height: 100%;
+  width: 80px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #29b6f6;
+  font-size: 20px;
+}
+
+.headerTitle {
+  color: #29b6f6;
+  font-size: 20px;
+}
+
+.headerYearMount {
+  color: #29b6f6;
+  font-size: 26px;
+}
+
+.headerCenter {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weekHeader{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 40px;
+  background-color: #0097a7;
+}
+
+.weekHeaderDayStyle{
+  display: flex;
+  flex: 1;
+  color: azure;
+  align-items: center;
+  justify-content: center;
+}

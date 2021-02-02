@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "dpic"
+  "defaultProject": "dpic",
+  "cli": {
+    "analytics": false
+  }
 }

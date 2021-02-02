@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngIf="options" class="header">
+    <div class="button">{{options.header.buttons.left.text}}</div>
+    <div class="headerCenter">
+      <div class="headerTitle">{{options.header.title.text}}</div>
+      <div class="headerYearMount">{{_currentYear}} - {{_cuurentMonth}}</div>
+    </div>
+    <div class="button">{{options.header.buttons.right.text}}</div>
+  </div>
+
+  <div class="weekHeader">
+    <div class="weekHeaderDayStyle" *ngFor="let day of options.weekDayBar.days.nameSet">
+      {{day}}
+    </div>
+  </div>
+</div>
